@@ -97,6 +97,3 @@ def test_008_invalid_credentials():
     custom_post_resp = requests.post(url, data=json.dumps(custom_payload), headers=header)
     assert custom_post_resp.status_code == 400
 
-# https://sherryhsu.medium.com/session-vs-token-based-authentication-11a6c5ac45e4
-
-# https://www.geeksforgeeks.org/session-vs-token-based-authentication/#:~:text=The%20main%20difference%20is%20session,one%20the%20client%20stores%20them.
