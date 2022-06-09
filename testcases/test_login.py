@@ -5,10 +5,16 @@ import pytest
 url = 'https://api.matchbook.com/bpapi/rest/security/session'
 
 # payload with user credentials
+# payload = {
+#     "username": 'QA_ITW3',
+#     "password": 'NQqaT2cMC0'
+# }
 payload = {
-    "username": 'QA_ITW3',
-    "password": 'NQqaT2cMC0'
+    "username": 'varundhavan',
+    "password": 'Cec_jan892'
 }
+
+
 # customized payload for invalid login test
 custom_payload = {
     "username": "admin",
