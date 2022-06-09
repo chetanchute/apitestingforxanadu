@@ -4,11 +4,6 @@ import pytest
 
 url = 'https://api.matchbook.com/bpapi/rest/security/session'
 
-# payload with user credentials
-# payload = {
-#     "username": 'QA_ITW3',
-#     "password": 'NQqaT2cMC0'
-# }
 payload = {
     "username": 'varundhavan',
     "password": 'Cec_jan892'
@@ -41,7 +36,7 @@ def test_001_verify_login():
 def test_002_user_id_match():
     # test to verify the user ID is correct
     user_id = post_resp.json()['user-id']
-    assert user_id == 426553
+    assert user_id == 428720
 
 
 @pytest.mark.regression
